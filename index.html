@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Shopping Cart Example</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+      
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+    <div class="container"> 
+   <h1>welcome to my shopping cart </h1>
+   
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+            <h3 class="productname">shoes</h3>
+            <p class="price">$5.05</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">t.shirt</h3>
+            <p class="price">$8.50</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">pants</h3>
+            <p class="price">$10.50</p>
+            <button class="addtocart">Add To Cart</button>
+           
+        </div>
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <button id="checkout">Checkout</button>
+          </div>
+        </div>
+</div>
+
+ </main>
+ 
+        <script  src="./js/main.js"></script> 
+  </body>
+</html>
